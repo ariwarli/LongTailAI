@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LongTail AI - SEO Opportunity Finder</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#D4AF37', // Champagne Gold
+                hover: '#FFD700',   // Bright Gold
+              },
+              accent: '#CD7F32', // Bronze
+              gold: {
+                champagne: '#D4AF37',
+                bright: '#FFD700',
+                antique: '#957C3D',
+              },
+              background: {
+                light: '#F5F7FA',
+                dark: '#0A0A0A', // Deep Black
+              },
+              surface: {
+                light: '#FFFFFF',
+                dark: '#1B1B1B', // Rich Charcoal
+                elevated: '#2C2C2C', // Charcoal Gray
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      /* Custom scrollbar for dark mode */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0A0A0A; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #2C2C2C; 
+        border-radius: 4px;
+        border: 1px solid #1B1B1B;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #957C3D; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "path": "https://aistudiocdn.com/path@^0.12.7",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0",
+    "vite": "https://aistudiocdn.com/vite@^7.2.7",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.2",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "url": "https://aistudiocdn.com/url@^0.11.4"
+  }
+}
+</script>
+</head>
+  <body class="bg-background-dark text-gray-100 antialiased overflow-hidden">
+    <div id="root"></div>
+  </body>
+</html>
